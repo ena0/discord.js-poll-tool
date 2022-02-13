@@ -1,0 +1,23 @@
+{
+   "source": {
+      "includePattern": ".js",
+      "include": ["src"],
+      "exclude": ["node_modules", "docs"]
+   },
+   "opts": {
+      "destination": "./docs/",
+      "recurse": true,
+      "template": "./node_modules/better-docs",
+      "readme": "./README.md"
+   },
+   "templates": {
+      "cleverLinks": false,
+      "monospaceLinks": true,
+      "useLongnameInNav": false,
+      "showInheritedInNav": true,
+      "default": {
+          "outputSourceFiles": false,
+          "includeDate": false
+      }
+   }
+}

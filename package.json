@@ -1,0 +1,32 @@
+{
+  "name": "discord.js-poll-tool",
+  "version": "0.0.1",
+  "description": "discord.js-poll-tool",
+  "main": "index.js",
+  "scripts": {
+    "jsdoc": "jsdoc -c ./jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ena0/discord.js-poll-tool.git"
+  },
+  "keywords": [
+    "discord.js",
+    "poll"
+  ],
+  "author": "ena0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ena0/discord.js-poll-tool/issues"
+  },
+  "homepage": "https://ena0.github.io/discordjs-poll-tool.github.io/",
+  "dependencies": {
+    "deepmerge": "^4.2.2"
+  },
+  "devDependencies": {
+    "better-docs": "^2.7.2"
+  },
+  "directories": {
+    "doc": "docs"
+  }
+}
